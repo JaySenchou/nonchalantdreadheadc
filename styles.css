@@ -1,17 +1,21 @@
 /* styles.css */
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Verdana', sans-serif;
+    background-color: #000000;
+    color: #00FF00;
     margin: 0;
     padding: 0;
 }
 
 .header {
-    background: #282c34;
+    background: linear-gradient(90deg, #FF00FF, #00FFFF);
     color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: 2em 0;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px solid #00FF00;
 }
 
 .container {
@@ -21,22 +25,37 @@ body {
 }
 
 .content {
-    background: white;
+    background: #000;
+    color: #00FF00;
     padding: 20px;
     margin-top: 20px;
+    border: 2px solid #00FF00;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .footer {
-    background: #282c34;
+    background: linear-gradient(90deg, #00FFFF, #FF00FF);
     color: white;
     text-align: center;
     padding: 1em 0;
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-top: 2px solid #00FF00;
 }
 
 .socials img {
     width: 30px;
     margin: 0 10px;
+    border: 2px solid #00FF00;
+}
+
+a {
+    color: #00FFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF00FF;
+    text-decoration: underline;
 }
