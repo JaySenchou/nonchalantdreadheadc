@@ -1,0 +1,42 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #282c34;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer {
+    background: #282c34;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.socials img {
+    width: 30px;
+    margin: 0 10px;
+}
